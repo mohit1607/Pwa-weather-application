@@ -77,6 +77,11 @@ button:active{
     padding-top: 8px;
 }
 
-h1, h4{
+h1, h3{
     color:white;
+}
+
+.temp{
+  color: yellow; 
+  font-size: 28px; 
 }
