@@ -1,0 +1,82 @@
+
+body{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23110718' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23220e30' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23331447' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23441b5f' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.Container{
+    
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    backdrop-filter: blur(9px) saturate(50%);
+    -webkit-backdrop-filter: blur(9px) saturate(50%);
+    background-color: rgba(17, 25, 40, 0.58);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.input{
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    background: #e1ede4;
+    font-size: 16px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.imageBox{
+    position: relative;
+}
+
+.responsiveImage{
+    width: 100%;
+    height: 100vh;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background:turquoise;
+    border: none;
+    font-weight: bold;
+    transition: 0.1ms;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    padding-top: 8px;
+}
+
+h1, h4{
+    color:white;
+}
